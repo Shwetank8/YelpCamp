@@ -4,3 +4,4 @@ It features secure authentication with packages like Passport,Passport-local-mon
 Explore campgrounds on an interactive cluster map with Mapbox. 
 Upload images with ease using Cloudinary. 
 Additional packages include EJS, Joi, Multer, Connect-flash, dotenv,method-override. 
+Deployed using Render
