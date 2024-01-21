@@ -1,7 +1,7 @@
 if(process.env.NODE_ENV !== "production") {
     require('dotenv').config();
 };
-console.log(process.env.MAPBOX_TOKEN);
+
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
@@ -29,7 +29,6 @@ const reviewRoutes = require('./routes/reviews');
 
 const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/yelp';
 
-//"mongodb://127.0.0.1:27017"
 mongoose
   .connect( dbUrl , {
     dbName: "yelp",
