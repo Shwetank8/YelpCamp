@@ -1,0 +1,25 @@
+.footer {
+    background-color: #343a40; /* Dark background color */
+    padding: 15px 0; /* Adjust the padding as needed */
+    color: #6c757d; /* Text color */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    flex: 1; /* Takes up remaining space */
+}
+
+.social-links {
+    display: flex;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* Adjust spacing between logos */
+}
