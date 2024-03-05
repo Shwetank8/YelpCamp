@@ -27,8 +27,7 @@ const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 
 
-const dbUrl = 'mongodb+srv://sinhashwetank50:ycfHTfoXAwfQc1pI@cluster0.0icp6yw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-
+const dbUrl = process.env.DB_URL;
 mongoose
   .connect( dbUrl , {
     dbName: "yelp",
