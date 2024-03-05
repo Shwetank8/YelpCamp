@@ -14,10 +14,6 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const MongoStore = require('connect-mongo');
 const helmet = require('helmet');
-
-
-
-
 const mongoSanatize = require('express-mongo-sanitize');
 
 const User = require('./models/user');
@@ -164,7 +160,7 @@ app.use((err, req, res, next) => {
 })
 
 app.listen(3000, () => {
-    console.log('Serving on port 3000')
+    console.log('Serving on port 8000')
 })
 
 
